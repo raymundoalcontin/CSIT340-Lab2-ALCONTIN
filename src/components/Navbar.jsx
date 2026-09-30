@@ -8,7 +8,8 @@ function Navbar() {
       <a href="#top" className="font-semibold">Juan dela Cruz</a>
       <div className="flex gap-6 text-sm text-stone-600">
         < NavLink href="#about" label="About" />
-        < NavLink href="#projects" label="Skills" />
+        < NavLink href="#skills" label="Skills" />
+        < NavLink href="#projects" label="Projects" />
         < NavLink href="#experience" label="Experience" />
         < NavLink href="#contact" label="Contact" />
       </div>
