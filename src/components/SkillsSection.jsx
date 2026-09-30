@@ -10,7 +10,6 @@ function SkillsSection(){
           <h3 className="text-sm font-medium text-stone-500">Languages</h3>
           <div className="mt-3 flex flex-wrap gap-2">
             <SkillTag name="HTML"/>
-            <SkillTag name="C"/>
             <SkillTag name="CSS"/>
             <SkillTag name="JavaScript"/>
             <SkillTag name="Java"/>
