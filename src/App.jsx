@@ -15,11 +15,15 @@ function App() {
     <>
     <Navbar />
     <Hero />
+
+    <main>
     <AboutSection/>
     <SkillsSection/>
     <ProjectsSection/>
     <ExperienceSection/>
     <ContactSection/>
+    </main>
+    
     <Footer/>
     </>
   )
