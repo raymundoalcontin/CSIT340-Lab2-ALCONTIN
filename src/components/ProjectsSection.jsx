@@ -2,10 +2,10 @@ import ProjectCard from "./ProjectCard"
 
 function ProjectsSection(){
     return(
-        <section id="projects" class="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
-      <h2 class="text-2xl font-semibold tracking-tight">Projects</h2>
-      <p class="mt-2 text-stone-600">Things I have built.</p>
-      <div class="mt-8 grid gap-6 sm:grid-cols-2">
+        <section id="projects" className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
+      <h2 className="text-2xl font-semibold tracking-tight">Projects</h2>
+      <p className="mt-2 text-stone-600">Things I have built.</p>
+      <div className="mt-8 grid gap-6 sm:grid-cols-2">
         <ProjectCard 
         year ="2026" 
         title ="About Me in React" 

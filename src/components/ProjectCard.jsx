@@ -1,11 +1,11 @@
 function ProjectCard({year,title,description,tech,link}){
     return(
-        <article class="rounded-lg border border-stone-200 p-6 hover:border-stone-400">
-        <p class="text-xs font-medium uppercase tracking-wide text-stone-500">{year}</p>
-        <h3 class="mt-2 text-lg font-semibold">{title}</h3>
-        <p class="mt-2 text-sm leading-relaxed text-stone-600">{description}</p>
-        <p class="mt-4 text-sm text-stone-500">{tech}</p>
-        <a href="https://github.com/juandelacruz/CSIT340-Lab1-DelaCruz" class="mt-4 inline-block text-sm font-medium underline underline-offset-4 hover:text-stone-600">{link}</a>
+        <article className="rounded-lg border border-stone-200 p-6 hover:border-stone-400">
+        <p className="text-xs font-medium uppercase tracking-wide text-stone-500">{year}</p>
+        <h3 className="mt-2 text-lg font-semibold">{title}</h3>
+        <p className="mt-2 text-sm leading-relaxed text-stone-600">{description}</p>
+        <p className="mt-4 text-sm text-stone-500">{tech}</p>
+        <a className="https://github.com/juandelacruz/CSIT340-Lab1-DelaCruz" class="mt-4 inline-block text-sm font-medium underline underline-offset-4 hover:text-stone-600">{link}</a>
       </article>
 
 
