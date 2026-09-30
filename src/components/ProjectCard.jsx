@@ -5,7 +5,7 @@ function ProjectCard({year,title,description,tech,link}){
         <h3 className="mt-2 text-lg font-semibold">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-stone-600">{description}</p>
         <p className="mt-4 text-sm text-stone-500">{tech}</p>
-        <a className="https://github.com/juandelacruz/CSIT340-Lab1-DelaCruz" class="mt-4 inline-block text-sm font-medium underline underline-offset-4 hover:text-stone-600">{link}</a>
+        <a href={link} class="mt-4 inline-block text-sm font-medium underline underline-offset-4 hover:text-stone-600">View on github</a>
       </article>
 
 

@@ -11,7 +11,7 @@ function ContactSection(){
 
         <ContactLink label ="GitHub" href="https://github.com/raymundoalcontin" text=" github.com/raymundoalcontin"/>
 
-        <ContactLink label ="LinkedIn" href="https://linkedin.com/in/juandelacruz" text=" linkedin.com/in/juandelacruz"/>
+        <ContactLink label ="LinkedIn" href="https://www.linkedin.com/in/alcontin-jr-raymundo-824a712a0/?isSelfProfile=true" text=" linkedin.com/in/alcontin-jr-raymundo"/>
       </ul>
     </section>
     )
